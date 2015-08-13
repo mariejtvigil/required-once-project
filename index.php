@@ -1,5 +1,5 @@
-<? php
-	required_once (dirname (_DIR_)  . “/head-utils.php”);
+<?php
+	require_once(dirname(_DIR_) . "lib/head-utils.php");
 ?>
 
 
@@ -9,7 +9,7 @@
 
 	<header>
 
-		<?php required_once (dirname (_DIR_)  . “/header.php”); ?>
+		<?php require_once(dirname(_DIR_) ."lib/header.php"); ?>
 
 	</header>
 
@@ -18,7 +18,9 @@
 
 	<div class="row">
 		<section class="side-panel col-md-3">
-			<?php required_once (dirname (_DIR_)  . “/content.php”); ?>
+
+			<?php require_once(dirname(_DIR_) . "lib/content.php"); ?>
+
 		</section>
 
 		<section class="main-content col-md-9">
@@ -32,8 +34,10 @@
 	<!-------- Footer -------->
 
 
-	<footer class="footer">
-		<?php required_once (dirname (_DIR_)  . “/footer.php”); ?>
+	<footer class="footer"
+
+		<?php require_once(dirname(_DIR_) . "lib/footer.php”); ?>
+
 	</footer>
 
 
@@ -44,6 +48,3 @@
 
 
 </html>
-
-
-?>
