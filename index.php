@@ -1,7 +1,5 @@
-<?php
-
-$PAGE_TITLE = "required-once-project";
-require_once("lib/head-utils.php");
+<? php
+	required_once (dirname (_DIR_)  . “/head-utils.php”);
 ?>
 
 
@@ -11,8 +9,8 @@ require_once("lib/head-utils.php");
 
 	<header>
 
+		<?php required_once (dirname (_DIR_)  . “/header.php”); ?>
 
-		<?php require_once("lib/header.php"); ?>
 	</header>
 
 
@@ -20,7 +18,7 @@ require_once("lib/head-utils.php");
 
 	<div class="row">
 		<section class="side-panel col-md-3">
-			<?php require_once("lib/side-panel.php"); ?>
+			<?php required_once (dirname (_DIR_)  . “/content.php”); ?>
 		</section>
 
 		<section class="main-content col-md-9">
@@ -29,12 +27,22 @@ require_once("lib/head-utils.php");
 		</section>
 	</div>
 
+
+
+	<!-------- Footer -------->
+
+
 	<footer class="footer">
-		<?php require_once("lib/footer.php"); ?>
+		<?php required_once (dirname (_DIR_)  . “/footer.php”); ?>
 	</footer>
+
+
 </div><!-- .container -->
 
 </body>
+
+
+
 </html>
 
 
