@@ -2,15 +2,21 @@
 
 $PAGE_TITLE = "required-once-project";
 require_once("lib/head-utils.php");
+?>
 
-
-<div class="container">
 
 //-------- HEADER --------
 
+<div class="container">
+
 	<header>
+
+
 		<?php require_once("lib/header.php"); ?>
 	</header>
+
+
+<!-------- Section -------->
 
 	<div class="row">
 		<section class="side-panel col-md-3">
