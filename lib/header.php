@@ -1,6 +1,3 @@
-<?php
-
-
 
 <!-- Start Logo & Naviagtion  -->
 

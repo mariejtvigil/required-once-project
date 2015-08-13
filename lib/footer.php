@@ -1,6 +1,6 @@
-<?php
 
-<		<<div class="content container-fluid">
+
+<div class="content container-fluid">
 			<div class="row">
 				<div class="col-sm-6">
 					<p>Call us toll-free at <span class="phone">000-000-000</span></p>

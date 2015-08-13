@@ -1,25 +1,26 @@
-<?php
-	require_once(dirname(_DIR_) . "lib/head-utils.php");
-?>
+<?php require_once(dirname(__DIR__) . "/required-once-project/lib/head-utils.php"); ?>
 
 
-//-------- HEADER --------
+	<!-------- HEADER -------->
 
 <div class="container">
 
 	<header>
 
-		<?php require_once(dirname(_DIR_) ."lib/header.php"); ?>
+		<?php require_once(dirname(__DIR__) . "/required-once-project/lib/header.php"); ?>
 
 	</header>
 
 
-<!-------- Section -------->
+<!-------- Body -------->
+
+	<body>
+
 
 	<div class="row">
 		<section class="side-panel col-md-3">
 
-			<?php require_once(dirname(_DIR_) . "lib/content.php"); ?>
+
 
 		</section>
 
@@ -27,21 +28,26 @@
 			<h1>Hello World</h1>
 			<p>This is the main page content here.</p>
 		</section>
-	</div>
+	</div><!-- row -->
 
 
 
 	<!-------- Footer -------->
 
 
-	<footer class="footer"
+	<footer class="footer">
 
-		<?php require_once(dirname(_DIR_) . "lib/footer.php”); ?>
+		<?php require_once(dirname(__DIR__) . "/required-once-project/lib/footer.php"); ?>
 
 	</footer>
 
 
+
+
+
+
 </div><!-- .container -->
+
 
 </body>
 
