@@ -1,1 +1,1 @@
-# required-once-project
+# require-once-program
